@@ -6,6 +6,8 @@ Kubernetes Operator 快速入门教程（Kubernetes Operator 101）
 在本篇文章中我们会为大家介绍一个简单示例来演示如何使用 Operator Framework 框架来开发一个 Operator 应用。
 
 
+[TOC]
+
 ## Kubernetes Operator
 Operator 是由 CoreOS 开发的，用来扩展 Kubernetes API，特定的应用程序控制器，它用来创建、配置和管理复杂的有状态应用，如数据库、缓存和监控系统。Operator 基于 Kubernetes 的资源和控制器概念之上构建，但同时又包含了应用程序特定的领域知识。创建Operator 的关键是CRD（自定义资源）的设计。
 
