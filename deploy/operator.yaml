@@ -16,7 +16,7 @@ spec:
       containers:
         - name: opdemo
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: cnych/opdemo
           command:
           - opdemo
           imagePullPolicy: Always

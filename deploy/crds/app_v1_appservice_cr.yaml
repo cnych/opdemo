@@ -1,0 +1,11 @@
+apiVersion: app.example.com/v1
+kind: AppService
+metadata:
+  name: nginx-app
+spec:
+  size: 2
+  image: nginx:1.7.9
+  ports:
+    - port: 80
+      targetPort: 80
+      nodePort: 30002
