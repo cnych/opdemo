@@ -1,6 +1,8 @@
 # opdemo
 Kubernetes Operator 快速入门教程（Kubernetes Operator 101）
 
+[![kubernetes operator 101](https://bxdc-static.oss-cn-beijing.aliyuncs.com/images/默认标题_公众号封面首图_2019.05.30.png)](https://www.qikqiak.com/post/k8s-operator-101/)
+
 在 Kubernetes 的监控方案中我们经常会使用到一个[Promethues Operator](https://www.qikqiak.com/tags/operator/)的项目，该项目可以让我们更加方便的去使用 Prometheus，而不需要直接去使用最原始的一些资源对象，比如 Pod、Deployment，随着 Prometheus Operator 项目的成功，CoreOS 公司开源了一个比较厉害的工具：[Operator Framework](https://github.com/operator-framework)，该工具可以让开发人员更加容易的开发 Operator 应用。
 
 在本篇文章中我们会为大家介绍一个简单示例来演示如何使用 Operator Framework 框架来开发一个 Operator 应用。
